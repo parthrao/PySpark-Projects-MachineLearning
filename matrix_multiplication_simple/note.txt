@@ -1,0 +1,6 @@
+There is no difference between matrix_small_c and matrix_large_c program. Just for showing different inpu and output files I have kept that way.
+
+Matrix_small_c take 10 x 10 matrix and 
+Matrix_large_c take 1000 x 1000 matrix
+
+Usage: matrix_small_c.py vectorfile matrixfile outputfile

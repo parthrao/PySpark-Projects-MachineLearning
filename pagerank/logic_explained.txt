@@ -1,0 +1,25 @@
+Logic:
+
+Read the file in rdd and turned it into outlink_rdd with following for 
+[(1, [2,4,5 ... outlinks]), (2, [45,67, .. outlinks])]
+
+Derived weight_matrix from the outlink_rdd by taking indivual entry and maping it to (outnode , innode, weight assigned by that innode)
+Above game me the Dense matrix in (i,j,m) form
+
+created and broadcasted vector v = [1/totalnode,......] This vector has weights in correct index order.
+
+Because of the guarantee of the element order in vector I could easily define matrix_multiplication by applying map function on my dense matrix form like this:  round(V.value[tuple[1]-1] * tuple[2], 15)) 
+
+This matrix vector multiplication game me tupples [(1, mv1), (2, mv2), ....] which I converted into local array and sort based on key which is node id . That gave me new Vector
+
+Found the difference between oldvector and new vector in terms of sum of sqaured error and stored into currentDist variable.
+Checked the currentDist against previousDist to see whether stabilization has occured or not. 
+
+It tokk around 35 iterations in normal_pagerank and 29 iterations in modified_pagerank to come to a rank which were very stable.
+
+I have kept iterations log file along with the output files.
+
+Modified_PageRank: The difference was just in the final equation where we added vector e = [0.002, .....] with the newVector V1 = BMV .
+
+normal_pagerank: 35 iterations
+modified_pagerank: 29 iterations

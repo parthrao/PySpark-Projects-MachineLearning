@@ -1,0 +1,7 @@
+Logic:
+
+Read the file in an RDD and made a list from that  RDD. Iterated over that to find out provided 4 users and save those lines into list . For every test user I ran find_recommendation function which makes a global variable of that user and his friends. Then apply map function on the entire RDD which satisfies following conditions. a) If the line is for that user or it’s friend’s id then function returns (user, [(0,0)]) , else it finds out number of common friends between two users and and return (user, [(other-user, num of common friends)]).  This goes through Reducer which sorts the tuples (other-user, num of common friends ) based on num of common friends first in descending order and other-user in ascending order. this gives us (user, [(user1, common friends1), (user2, common friends2)]]) in that format. Then this goes through another paper to map it to desired output format with only first 10 recommendations.
+
+
+note: This take inputfilepath and outputpath as arguments .
+list of users for which you want to find recommendation has been hardcoded in the code. Could have been passed as an argument.

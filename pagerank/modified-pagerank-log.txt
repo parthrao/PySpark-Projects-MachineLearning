@@ -1,0 +1,146 @@
+1
+PythonRDD[4194] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000844)
+('currentDist ==', 0.005543558299868947)
+('previousDist ==', 1.0)
+2
+PythonRDD[4199] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.000000000000128)
+('currentDist ==', 0.00039531279488267535)
+('previousDist ==', 0.005543558299868947)
+3
+PythonRDD[4204] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000928)
+('currentDist ==', 3.5153538718025654e-05)
+('previousDist ==', 0.00039531279488267535)
+4
+PythonRDD[4209] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000355)
+('currentDist ==', 2.6247029730654313e-06)
+('previousDist ==', 3.5153538718025654e-05)
+5
+PythonRDD[4214] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000493)
+('currentDist ==', 2.0606219316200585e-07)
+('previousDist ==', 2.6247029730654313e-06)
+6
+PythonRDD[4219] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000353)
+('currentDist ==', 1.3454543793707851e-08)
+('previousDist ==', 2.0606219316200585e-07)
+7
+PythonRDD[4224] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.000000000000034)
+('currentDist ==', 8.8665302847627757e-10)
+('previousDist ==', 1.3454543793707851e-08)
+8
+PythonRDD[4229] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000182)
+('currentDist ==', 6.7091978708757949e-11)
+('previousDist ==', 8.8665302847627757e-10)
+9
+PythonRDD[4234] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000073)
+('currentDist ==', 5.3067001106387823e-12)
+('previousDist ==', 6.7091978708757949e-11)
+10
+PythonRDD[4239] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999699)
+('currentDist ==', 5.0715366529684639e-13)
+('previousDist ==', 5.3067001106387823e-12)
+11
+PythonRDD[4244] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999762)
+('currentDist ==', 4.9979616013182767e-14)
+('previousDist ==', 5.0715366529684639e-13)
+12
+PythonRDD[4249] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999769)
+('currentDist ==', 4.7263984367359988e-15)
+('previousDist ==', 4.9979616013182767e-14)
+13
+PythonRDD[4254] at RDD at PythonRDD.scala:48
+('Sum is ==', 1.0000000000000029)
+('currentDist ==', 4.2261623830044251e-16)
+('previousDist ==', 4.7263984367359988e-15)
+14
+PythonRDD[4259] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999902)
+('currentDist ==', 3.9062755069688222e-17)
+('previousDist ==', 4.2261623830044251e-16)
+15
+PythonRDD[4264] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999709)
+('currentDist ==', 3.8305457633137266e-18)
+('previousDist ==', 3.9062755069688222e-17)
+16
+PythonRDD[4269] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999922)
+('currentDist ==', 3.6938842060367133e-19)
+('previousDist ==', 3.8305457633137266e-18)
+17
+PythonRDD[4274] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999968)
+('currentDist ==', 3.4537056559656516e-20)
+('previousDist ==', 3.6938842060367133e-19)
+18
+PythonRDD[4279] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999627)
+('currentDist ==', 3.1159684612880538e-21)
+('previousDist ==', 3.4537056559656516e-20)
+19
+PythonRDD[4284] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999721)
+('currentDist ==', 2.8530493953842612e-22)
+('previousDist ==', 3.1159684612880538e-21)
+20
+PythonRDD[4289] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999671)
+('currentDist ==', 2.716895460397703e-23)
+('previousDist ==', 2.8530493953842612e-22)
+21
+PythonRDD[4294] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999598)
+('currentDist ==', 2.6749122517470518e-24)
+('previousDist ==', 2.716895460397703e-23)
+22
+PythonRDD[4299] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999064)
+('currentDist ==', 2.6521144413102082e-25)
+('previousDist ==', 2.6749122517470518e-24)
+23
+PythonRDD[4304] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999162)
+('currentDist ==', 2.5310518481732227e-26)
+('previousDist ==', 2.6521144413102082e-25)
+24
+PythonRDD[4309] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999998903)
+('currentDist ==', 2.4903559022583482e-27)
+('previousDist ==', 2.5310518481732227e-26)
+25
+PythonRDD[4314] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999013)
+('currentDist ==', 4.1280841604301309e-28)
+('previousDist ==', 2.4903559022583482e-27)
+26
+PythonRDD[4319] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999243)
+('currentDist ==', 1.2293623743871374e-28)
+('previousDist ==', 4.1280841604301309e-28)
+27
+PythonRDD[4324] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999482)
+('currentDist ==', 9.3937602236753135e-29)
+('previousDist ==', 1.2293623743871374e-28)
+28
+PythonRDD[4329] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999613)
+('currentDist ==', 6.4985627013514525e-29)
+('previousDist ==', 9.3937602236753135e-29)
+29
+PythonRDD[4334] at RDD at PythonRDD.scala:48
+('Sum is ==', 0.9999999999999591)
+('currentDist ==', 6.8076312556572224e-29)
+('previousDist ==', 6.4985627013514525e-29)
+number of iterations == 29

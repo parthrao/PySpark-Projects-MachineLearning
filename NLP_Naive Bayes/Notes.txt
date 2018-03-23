@@ -1,0 +1,15 @@
+Final Accuracy = 0.7993892724375996
+
+Key Ideas:
+
+1) Cleaned the data by removing initial lines like from:, to: and other metadata.
+2) Converted words into lower cases and trimed the lines.
+3) Removed unwanted characters and spaces.
+4) Laod the data into train and test variable
+5) Converted the text_label of the class into numeric_label 0-19
+6) Tockenize each document into array of words 
+7) After trying various values of n-gram I found that 1-gram is performing  best.
+8) Removed stop words
+9) found TF-IDF value
+10) Applied Naive Byes model and found accuracy
+

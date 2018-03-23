@@ -1,0 +1,36 @@
+('centers', 2)
+('sse', 386095473193.16119)
+('iterations', 2)
+
+('centers', 3)
+('sse', 374080007452.797)
+('iterations', 5)
+
+('centers', 4)
+('sse', 373044105149.32117)
+('iterations', 13)
+
+('centers', 5)
+('sse', 372999833762.08728)
+('iterations', 13)
+
+('centers', 6)
+('sse', 374011636651.75482)
+('iterations', 5)
+
+('centers', 7)
+('sse', 373841179233.98804)
+('iterations', 5)
+
+('centers', 8)
+('sse', 372466664367.52795)
+('iterations', 25)
+
+('centers', 9)
+('sse', 372684899809.39355)
+('iterations', 13)
+
+('centers', 10)
+('sse', 372450916842.2381)
+('iterations', 30)
+

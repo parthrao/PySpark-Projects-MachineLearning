@@ -1,0 +1,45 @@
+logic:
+
+I have used spark 2.1.0 and it's features like SparkSession and dataframes to solve this problem.
+
+1) Cleaned the file using command line and removed all unnecessary spaces and “\n” plus invalid characters. so that files can be read correctly. removed corrupted part.
+
+2) Read the clead ata into spark dataframe
+
+3) generated Ids for each row in the dataframe
+
+4) created bag of words from the article column. (I initially tried with shingles of length 5 but that was taking so much time to generate min-hash values that after struggling for 1.5 days doing so I abandoned the idea and settled with the bag of words. In bag of words I didnt take n-grams either since that value also causing issues in genrating hash table)
+
+5) Made universal_set of words.
+
+6) converted word column into binary array (if a doc has a particular word then 1 otherwise 0 ) using universal_set
+
+6) Generated signature of length 100 by min hashing technique. 
+
+7) took the hashed matrix into data_rdd 
+
+8) took k random points from data_rdd and made them initial centers.
+
+9) mapped the data_rdd into (cluster_number, point) rdd by finding closest centers.
+
+10) found new centers by taking mean fo all points of cluster.
+
+11) found the distance between old and new centers
+
+12) iterated until new and old centers are more or less same
+
+13) Used the final centers to compute the Sum of squared error
+
+14) save the output in the output file
+
+
+
+Key Outcome: in the elbow chart we I got k=3 or k=4 ideal k value for clustering where SSE flattens out. these valus could have been different , had I done min_hashing with shingles or 2-grams or 3-grams.
+
+
+Problems:
+
+I initially tried with shingles of length 5 but that was taking so much time to generate min-hash values that after struggling for 1.5 days doing so I abandoned the idea and settled with the bag of words. In bag of words I didnt take n-grams either since that value also causing issues in genrating hash table. After few days of struggling I created large amazon EMR cluster and ran the job on the cluster to get my min-hashed matrix with just bag of words.
+
+
+In the future I would like to experiment with this and see if it's giving better clustering.
